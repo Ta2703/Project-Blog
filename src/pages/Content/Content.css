@@ -1,0 +1,516 @@
+
+.ContentPageMainBoxLight {
+    width: 1120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 72px;
+    background: #e5e5e5;
+    transition: background 0.5s;
+    margin-top: 112px;
+    margin-bottom: 150px;
+  }
+  .ContentPageMainBoxDark {
+    width: 1120px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 72px;
+    background: #313037;
+    transition: background 0.5s;
+    margin-bottom: 150px;
+    margin-top: 112px;
+  }
+  .ContentPageLinkMainLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+  }
+  .ContentPageLinkMainDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .ContentPageLinkSecondaryLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(49, 48, 55, 0.5);
+  }
+  .ContentPageLinkSecondaryDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.1);
+  }
+  .ContentPageTitleLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    display: flex;
+    color: #313037;
+    align-items: flex-start;
+    text-align: start;
+    margin-top: 32px;
+  }
+  .ContentPageTitleDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    display: flex;
+    color: #ffffff;
+    align-items: flex-start;
+    text-align: start;
+    margin-top: 32px;
+  }
+  
+  .ContentPageImage {
+    width: 1120px;
+    height: 518px;
+    border-radius: 16px;
+    margin-top: 48px;
+    object-fit: cover;
+  }
+  
+  .ContentPageTextLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #313037;
+    text-align: start;
+    margin: 48px 100px;
+  }
+  .ContentPageTextDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    text-align: start;
+    margin: 48px 100px;
+  }
+  
+  .ContentPageShare {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 276px;
+    height: 56px;
+  }
+  
+  .ContentPageShareIconLight {
+    width: 88px;
+    height: 56px;
+    background: rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .ContentPageShareIconDark {
+    width: 88px;
+    height: 56px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .fa-facebook-f,
+  .fa-twitter,
+  .fa-circle {
+    font-size: 24px;
+  }
+  
+  .ContentPagePosts {
+    width: 1120px;
+    margin-top: 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px rgba(49, 48, 55, 0.1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ContentPageMainBoxLight {
+      width: 688px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 72px;
+      background: #e5e5e5;
+      transition: 0.5s;
+      margin-top: 112px;
+      margin-bottom: 150px;
+      overflow: hidden;
+    }
+    .ContentPageMainBoxDark {
+      width: 688px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 72px;
+      background: #313037;
+      transition: 0.5s;
+      margin-bottom: 150px;
+      margin-top: 112px;
+      overflow: hidden;
+    }
+    .ContentPageLinkMainLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #313037;
+    }
+    .ContentPageLinkMainDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+    .ContentPageLinkSecondaryLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(49, 48, 55, 0.5);
+    }
+    .ContentPageLinkSecondaryDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.1);
+    }
+    .ContentPageTitleLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 80px;
+      display: flex;
+      color: #313037;
+      align-items: flex-start;
+      text-align: start;
+      margin-top: 32px;
+    }
+    .ContentPageTitleDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 80px;
+      display: flex;
+      color: #ffffff;
+      align-items: flex-start;
+      text-align: start;
+      margin-top: 32px;
+    }
+  
+    .ContentPageImage {
+      width: 688px;
+      height: 360px;
+      border-radius: 16px;
+      margin-top: 48px;
+      object-fit: cover;
+    }
+  
+    .ContentPageTextLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #313037;
+      text-align: start;
+      margin: 48px 100px;
+    }
+    .ContentPageTextDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #ffffff;
+      text-align: start;
+      margin: 48px 100px;
+    }
+  
+    .ContentPageShare {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 276px;
+      height: 56px;
+    }
+  
+    .ContentPageShareIconLight {
+      width: 88px;
+      height: 56px;
+      background: rgba(49, 48, 55, 0.1);
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .ContentPageShareIconDark {
+      width: 88px;
+      height: 56px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-circle {
+      font-size: 24px;
+    }
+  
+    .ContentPagePosts {
+      width: 688px;
+      margin-top: 72px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 32px;
+      align-items: center;
+      border-top: solid 1px rgba(49, 48, 55, 0.1);
+      overflow: hidden;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .ContentPageMainBoxLight {
+      width: 272px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 72px;
+      background: #e5e5e5;
+      transition: 0.5s;
+      margin-top: 112px;
+      margin-bottom: 150px;
+      overflow: hidden;
+    }
+    .ContentPageMainBoxDark {
+      width: 272px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-top: 72px;
+      background: #313037;
+      transition: 0.5s;
+      margin-bottom: 150px;
+      margin-top: 112px;
+      overflow: hidden;
+    }
+    .ContentPageLinkMainLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #313037;
+    }
+    .ContentPageLinkMainDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+    }
+    .ContentPageLinkSecondaryLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(49, 48, 55, 0.5);
+    }
+    .ContentPageLinkSecondaryDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.1);
+    }
+    .ContentPageTitleLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      color: #313037;
+      align-items: flex-start;
+      text-align: start;
+      margin-top: 32px;
+    }
+    .ContentPageTitleDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      color: #ffffff;
+      align-items: flex-start;
+      text-align: start;
+      margin-top: 32px;
+    }
+  
+    .ContentPageImage {
+      width: 272px;
+      height: 224px;
+      border-radius: 16px;
+      margin-top: 48px;
+      object-fit: cover;
+    }
+  
+    .ContentPageTextLight {
+      width: 272px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #313037;
+      text-align: start;
+      margin: 20px auto !important;
+    }
+    .ContentPageTextDark {
+      width: 272px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      color: #ffffff;
+      text-align: start;
+      margin: 20px auto !important;
+    }
+  
+    .ContentPageShare {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      width: 276px;
+      height: 56px;
+    }
+  
+    .ContentPageShareIconLight {
+      width: 88px;
+      height: 56px;
+      background: rgba(49, 48, 55, 0.1);
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .ContentPageShareIconDark {
+      width: 88px;
+      height: 56px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-ellipsis {
+      font-size: 24px;
+    }
+  
+    .ContentPagePosts {
+      width: 272px;
+      margin-top: 72px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 32px;
+      align-items: center;
+      border-top: solid 1px rgba(49, 48, 55, 0.1);
+      overflow: hidden;
+    }
+  }
+  
+  .LottieClass {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .ErrorClassLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #313037;
+  }
+  
+  .ErrorClassLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #ffffff;
+  }

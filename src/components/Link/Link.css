@@ -1,0 +1,18 @@
+.Link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #313037;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .Link:hover {
+    color: #6c1bdb;
+  }
+  
+  .Link:disabled {
+    color: rgba(49, 48, 55, 0.3);
+  }

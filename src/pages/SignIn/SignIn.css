@@ -1,0 +1,513 @@
+.MainContainerLight {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    min-height: 100%;
+    background: #e5e5e5;
+    transition: 0.5s;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 92px;
+  }
+  .MainContainerDark {
+    display: flex;
+    flex-direction: column;
+    width: 1120px;
+    height: 100%;
+    background: #313037;
+    transition: 0.5s;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-top: 92px;
+  }
+  
+  .SignInTitleLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #313037;
+  }
+  .SignInTitleDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  .SignInBoxLight {
+    margin: 22px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10px;
+    width: 624px;
+    height: 472px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-sizing: border-box;
+  }
+  .SignInBoxDark {
+    margin: 22px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 10px;
+    width: 624px;
+    height: 472px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-sizing: border-box;
+  }
+  .SignInEmailInput,
+  .SignInPasswordInput {
+    width: 544px;
+    height: 56px;
+    background: #ffffff;
+    border: 1px solid rgba(49, 48, 55, 0.1);
+    border-radius: 4px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(49, 48, 55, 0.5);
+    text-align: start;
+  }
+  
+  .SignInEmailLight,
+  .SignInEPasswordLight {
+    width: 544px;
+    height: 84px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .SignInEmailDark,
+  .SignInEPasswordDark {
+    width: 544px;
+    height: 84px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: white;
+  }
+  .SignInForgotLight {
+    color: #313037;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  .SignInForgotDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .SignInButton {
+    width: 544px;
+    height: 56px;
+    padding: auto;
+    cursor: pointer;
+  }
+  
+  .SignInSignUpLight {
+    margin: 24px auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8d8e97;
+    width: 243px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .SignInSignUpDark {
+    margin: 24px auto;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8d8e97;
+    width: 243px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .SignInSignUpLinkLight {
+    color: #6c1bdb;
+    cursor: pointer;
+  }
+  .SignInSignUpLinkDark {
+    color: #6c1bdb;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .MainContainerLight {
+      display: flex;
+      flex-direction: column;
+      width: 688px;
+      min-height: 100%;
+      background: #e5e5e5;
+      transition: 0.5s;
+      box-sizing: border-box;
+      margin-bottom: 100px;
+      margin-top: 92px;
+    }
+    .MainContainerDark {
+      display: flex;
+      flex-direction: column;
+      width: 688px;
+      min-height: 100%;
+      background: #313037;
+      transition: 0.5s;
+      box-sizing: border-box;
+      margin-bottom: 100px;
+      margin-top: 92px;
+    }
+  
+    .SignInTitleLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 80px;
+      display: flex;
+      align-items: center;
+      color: #313037;
+    }
+    .SignInTitleDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 80px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+    .SignInBoxLight {
+      margin: 22px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 40px;
+      gap: 10px;
+      width: 688px;
+      height: 472px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-sizing: border-box;
+    }
+    .SignInBoxDark {
+      margin: 22px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 40px;
+      gap: 10px;
+      width: 688px;
+      height: 472px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      box-sizing: border-box;
+    }
+    .SignInEmailInput,
+    .SignInPasswordInput {
+      width: 608px;
+      height: 56px;
+      background: #ffffff;
+      border: 1px solid rgba(49, 48, 55, 0.1);
+      border-radius: 4px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(49, 48, 55, 0.5);
+      text-align: start;
+    }
+  
+    .SignInEmailLight,
+    .SignInEPasswordLight {
+      width: 608px;
+      height: 84px;
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  
+    .SignInEmailDark,
+    .SignInEPasswordDark {
+      width: 608px;
+      height: 84px;
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      color: white;
+    }
+    .SignInForgotLight {
+      color: #313037;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      cursor: pointer;
+    }
+    .SignInForgotDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  
+    .SignInButton {
+      width: 608px;
+      height: 56px;
+      padding: auto;
+      cursor: pointer;
+    }
+  
+    .SignInSignUpLight {
+      margin: 24px auto;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #8d8e97;
+      width: 243px;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .SignInSignUpDark {
+      margin: 24px auto;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #8d8e97;
+      width: 243px;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .SignInSignUpLinkLight {
+      color: #6c1bdb;
+      cursor: pointer;
+    }
+    .SignInSignUpLinkDark {
+      color: #6c1bdb;
+      cursor: pointer;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .MainContainerLight {
+      display: flex;
+      flex-direction: column;
+      width: 272px;
+      min-height: 100%;
+      background: #e5e5e5;
+      transition: 0.5s;
+      box-sizing: border-box;
+      margin-bottom: 140px;
+      margin-top: 122px;
+    }
+    .MainContainerDark {
+      display: flex;
+      flex-direction: column;
+      width: 272px;
+      min-height: 100%;
+      background: #313037;
+      transition: 0.5s;
+      box-sizing: border-box;
+      margin-bottom: 140px;
+      margin-top: 122px;
+    }
+  
+    .SignInTitleLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+      color: #313037;
+    }
+    .SignInTitleDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+    .SignInBoxLight {
+      margin: 22px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 24px;
+      gap: 10px;
+      width: 272px;
+      height: 420px;
+      background: #ffffff;
+      border-radius: 16px;
+      box-sizing: border-box;
+    }
+    .SignInBoxDark {
+      margin: 22px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 24px;
+      gap: 10px;
+      width: 272px;
+      height: 420px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      box-sizing: border-box;
+    }
+    .SignInEmailInput,
+    .SignInPasswordInput {
+      width: 224px;
+      height: 56px;
+      background: #ffffff;
+      border: 1px solid rgba(49, 48, 55, 0.1);
+      border-radius: 4px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: rgba(49, 48, 55, 0.5);
+      text-align: start;
+    }
+  
+    .SignInEmailLight,
+    .SignInEPasswordLight {
+      width: 224px;
+      height: 84px;
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  
+    .SignInEmailDark,
+    .SignInEPasswordDark {
+      width: 224px;
+      height: 84px;
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      color: white;
+    }
+    .SignInForgotLight {
+      color: #313037;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      cursor: pointer;
+    }
+    .SignInForgotDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  
+    .SignInButton {
+      width: 224px;
+      height: 56px;
+      padding: auto;
+      cursor: pointer;
+    }
+  
+    .SignInSignUpLight {
+      margin: 24px auto;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #8d8e97;
+      width: 214px;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .SignInSignUpDark {
+      margin: 24px auto;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      color: #8d8e97;
+      width: 214px;
+      height: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .SignInSignUpLinkLight {
+      color: #6c1bdb;
+      cursor: pointer;
+    }
+    .SignInSignUpLinkDark {
+      color: #6c1bdb;
+      cursor: pointer;
+    }
+  }

@@ -1,0 +1,205 @@
+.SearchMainMainBoxLight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 72px;
+    width: 1120px;
+    height: 100%;
+    transition: 0.5s;
+    margin-bottom: 150px;
+    margin-top: 112px;
+  }
+  .SearchMainMainBoxDark {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 72px;
+    width: 1120px;
+    transition: 0.5s;
+    height: 100%;
+    margin-bottom: 150px;
+    margin-top: 112px;
+  }
+  
+  .SearchPageTitleLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #313037;
+  }
+  .SearchPageTitleDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .SearchPagePosts {
+    width: 1120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+    flex-wrap: wrap;
+  }
+  
+  .SearchPagePagination {
+    margin-top: 72px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .SearchMainMainBoxLight {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 72px;
+      width: 688px;
+      height: 100%;
+      transition: 0.5s;
+      margin-bottom: 150px;
+      margin-top: 112px;
+    }
+    .SearchMainMainBoxDark {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 72px;
+      width: 688px;
+      transition: 0.5s;
+      height: 100%;
+      margin-bottom: 150px;
+      margin-top: 112px;
+    }
+  
+    .SearchPageTitleLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 80px;
+      display: flex;
+      align-items: center;
+      color: #313037;
+    }
+    .SearchPageTitleDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 80px;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+    }
+  
+    .SearchPagePosts {
+      width: 688px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 72px;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+  
+    .SearchPagePagination {
+      margin-top: 72px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .SearchMainMainBoxLight {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 72px;
+      width: 272px;
+      height: 100%;
+      transition: 0.5s;
+      margin-bottom: 150px;
+      margin-top: 112px;
+    }
+    .SearchMainMainBoxDark {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 72px;
+      width: 272px;
+      transition: 0.5s;
+      height: 100%;
+      margin-bottom: 150px;
+      margin-top: 112px;
+    }
+  
+    .SearchPageTitleLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      align-items: flex-start;
+      text-align: start;
+      color: #313037;
+    }
+    .SearchPageTitleDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 48px;
+      display: flex;
+      align-items: flex-start;
+      text-align: start;
+      color: #ffffff;
+    }
+  
+    .SearchPagePosts {
+      width: 272px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 32px;
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+  
+    .SearchPagePagination {
+      margin-top: 72px;
+    }
+  }
+  
+  .NoResultsLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    color: #313037;
+  }
+  
+  .NoResultsDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    color: #ffffff;
+  }
