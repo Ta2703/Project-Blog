@@ -1,0 +1,339 @@
+.PagMainBoxLight {
+    width: 1120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .PagMainBoxDark {
+    width: 1120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .PagNavBox {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    gap: 10px;
+  }
+  
+  .PagTextLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(49, 48, 55, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    background: none;
+    border: none;
+  }
+  .PagTextDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    transition: 0.5s;
+    outline: none;
+    background: none;
+    border: none;
+  }
+  
+  .PagIconLight {
+    width: 20px;
+    height: 20px;
+    color: rgba(49, 48, 55, 0.3);
+    font-size: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .PagIconDark {
+    width: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 18px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .PagIconLight:hover,
+  .PagIconDark:hover {
+    color: #6c1bdb;
+  }
+  .PagNumBoxLight {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(49, 48, 55, 0.3);
+    cursor: pointer;
+  }
+  .PagNumBoxDark {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .PagNumber,
+  .PagNumber.active {
+    transition: 0.5s;
+  }
+  .PagNumber:hover,
+  .PagNumber.active {
+    color: #6c1bdb;
+  }
+  
+  .PagTextLight:hover,
+  .PagTextDark:hover {
+    color: #6c1bdb;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .PagMainBoxLight {
+      width: 688px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .PagMainBoxDark {
+      width: 688px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .PagNavBox {
+      width: 80px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.5s;
+      gap: 10px;
+    }
+  
+    .PagTextLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(49, 48, 55, 0.3);
+      cursor: pointer;
+      transition: 0.5s;
+      outline: none;
+      background: none;
+      border: none;
+    }
+    .PagTextDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      transition: 0.5s;
+      outline: none;
+      background: none;
+      border: none;
+    }
+  
+    .PagIconLight {
+      width: 20px;
+      height: 20px;
+      color: rgba(49, 48, 55, 0.3);
+      font-size: 18px;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+    .PagIconDark {
+      width: 20px;
+      height: 20px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 18px;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+    .PagIconLight:hover,
+    .PagIconDark:hover {
+      color: #6c1bdb;
+    }
+    .PagNumBoxLight {
+      width: 200px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(49, 48, 55, 0.3);
+      cursor: pointer;
+    }
+    .PagNumBoxDark {
+      width: 200px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  
+    .PagNumber,
+    .PagNumber.active {
+      transition: 0.5s;
+    }
+    .PagNumber:hover,
+    .PagNumber.active {
+      color: #6c1bdb;
+    }
+  
+    .PagTextLight:hover,
+    .PagTextDark:hover {
+      color: #6c1bdb;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .PagMainBoxLight {
+      width: 272px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .PagMainBoxDark {
+      width: 272px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .PagNavBox {
+      width: 80px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.5s;
+      gap: 10px;
+    }
+  
+    .PagTextLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(49, 48, 55, 0.3);
+      cursor: pointer;
+      transition: 0.5s;
+      outline: none;
+      background: none;
+      border: none;
+    }
+    .PagTextDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      transition: 0.5s;
+      outline: none;
+      background: none;
+      border: none;
+    }
+  
+    .PagIconLight {
+      width: 20px;
+      height: 20px;
+      color: rgba(49, 48, 55, 0.3);
+      font-size: 18px;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+    .PagIconDark {
+      width: 20px;
+      height: 20px;
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 18px;
+      transition: 0.5s;
+      cursor: pointer;
+    }
+    .PagIconLight:hover,
+    .PagIconDark:hover {
+      color: #6c1bdb;
+    }
+    .PagNumBoxLight {
+      width: 200px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(49, 48, 55, 0.3);
+      cursor: pointer;
+    }
+    .PagNumBoxDark {
+      width: 200px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  
+    .PagNumber,
+    .PagNumber.active {
+      transition: 0.5s;
+    }
+    .PagNumber:hover,
+    .PagNumber.active {
+      color: #6c1bdb;
+    }
+  
+    .PagTextLight:hover,
+    .PagTextDark:hover {
+      color: #6c1bdb;
+    }
+  }

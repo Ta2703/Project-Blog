@@ -1,0 +1,78 @@
+.TabMainBoxLight {
+    width: 1120px;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: solid 1px rgba(49, 48, 55, 0.1);
+  }
+  
+  .TabMainBoxDark {
+    width: 1120px;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+  }
+  
+  .TabBoxLight {
+    width: 141px;
+    height: 39px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .TabBoxDark {
+    width: 141px;
+    height: 39px;
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  
+  .TabBoxLight_active {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #313037;
+    width: 141px;
+    height: 39px;
+    border-bottom: solid 2px #313037;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .TabBoxDark_active {
+    text-align: center;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 141px;
+    height: 39px;
+    border-bottom: solid 2px #ffffff;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .TabBox:hover {
+    color: #6c1bdb;
+  }
+  
+  .TabBox:disabled {
+    color: rgba(49, 48, 55, 0.3);
+  }

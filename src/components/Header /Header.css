@@ -1,0 +1,399 @@
+.HeaderMainBoxLight {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    height: 96px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 32px;
+  }
+  .HeaderMainBoxDark {
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    height: 96px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 32px;
+  }
+
+  .HeaderUserP {
+color: #f3f3f3;
+  }
+  
+  .HeaderLogo {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    min-width: 167px;
+    background-image: url(/src/img/Logo.png);
+  }
+  .HeaderSearchLight {
+    height: 96px;
+    min-width: 1000px;
+    border-right: 1px solid #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .HeaderSearchDark {
+    height: 96px;
+    min-width: 1000px;
+    border-right: 1px solid #313037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+  }
+  .iconLight {
+    font-size: 20px;
+    color: #313037;
+  }
+  .iconDark {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .fa-user {
+    font-size: 20px;
+  }
+  
+  .HeaderInputSearchLight {
+    width: 800px;
+    height: 94px;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    text-align: start;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 32px;
+    box-sizing: border-box;
+  }
+  .HeaderInputSearchLight:focus {
+    background: rgba(49, 48, 55, 0.1);
+  }
+  
+  .HeaderInputSearchDark {
+    width: 800px;
+    height: 92px;
+    outline: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    text-align: start;
+    background: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    padding-left: 32px;
+    box-sizing: border-box;
+  }
+  
+  .HeaderInputSearchDark:focus {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  .HeaderUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    height: 92px;
+    min-width: 230px;
+    box-sizing: border-box;
+  }
+  .HeaderUserIcon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(133.87deg, #4d0ac7 -10.18%, #912ef2 108.59%);
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+
+  
+  .HeaderUserNameLight {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #313037;
+    cursor: pointer;
+  }
+  
+  .HeaderUserNameDark {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .HeaderMainBoxLight {
+      position: absolute;
+      top: 0;
+      min-width: 100%;
+      height: 96px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 32px;
+    }
+    .HeaderMainBoxDark {
+      position: absolute;
+      top: 0;
+      min-width: 100%;
+      height: 96px;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 32px;
+    }
+  
+    .HeaderLogo {
+      display: flex;
+      align-items: center;
+      height: 56px;
+      min-width: 167px;
+      background-image: url(/src//img//Logo.png);
+    }
+    .HeaderSearchLight {
+      height: 96px;
+      min-width: 360px;
+      border-right: 1px solid #f3f3f3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+    }
+    .HeaderSearchDark {
+      height: 96px;
+      min-width: 360px;
+      border-right: 1px solid #313037;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+    }
+    .iconLight {
+      font-size: 20px;
+      color: #313037;
+    }
+    .iconDark {
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .fa-user {
+      font-size: 20px;
+    }
+  
+    .HeaderInputSearchLight {
+      width: 260px;
+      height: 94px;
+      outline: none !important;
+      border: none !important;
+      border-radius: 0 !important;
+      text-align: start;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      padding-left: 32px;
+      box-sizing: border-box;
+    }
+    .HeaderInputSearchLight:focus {
+      background: rgba(49, 48, 55, 0.1);
+    }
+  
+    .HeaderInputSearchDark {
+      width: 260px;
+      height: 92px;
+      outline: none !important;
+      border: none !important;
+      border-radius: 0 !important;
+      text-align: start;
+      background: none;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: white;
+      padding-left: 32px;
+      box-sizing: border-box;
+    }
+    .HeaderInputSearchDark:focus {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  
+    .HeaderUser {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      height: 92px;
+      min-width: 160px;
+    }
+    .HeaderUserIcon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(133.87deg, #4d0ac7 -10.18%, #912ef2 108.59%);
+      border-radius: 4px;
+      align-items: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .HeaderUserNameLight {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 34px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #313037;
+      cursor: pointer;
+    }
+  
+    .HeaderUserNameDark {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 34px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .HeaderMainBoxLight {
+      position: absolute;
+      top: 0;
+      width: 320px;
+      height: 96px;
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 24px !important;
+    }
+    .HeaderMainBoxDark {
+      position: absolute;
+      top: 0;
+      min-width: 100%;
+      height: 96px;
+      background: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      padding: 0 24px !important;
+    }
+  
+    .HeaderLogo {
+      display: flex;
+      align-items: center;
+      height: 56px;
+      min-width: 167px;
+      background-image: url(/src/img//Logo.png);
+    }
+    .HeaderSearchLight {
+      display: none;
+    }
+    .HeaderSearchDark {
+      display: none;
+    }
+    .iconLight {
+      font-size: 20px;
+      color: #313037;
+    }
+    .iconDark {
+      font-size: 20px;
+      color: #ffffff;
+    }
+    .fa-user {
+      font-size: 20px;
+    }
+  
+    .HeaderInputSearchLight {
+      display: none;
+    }
+    .HeaderInputSearchLight:focus {
+      background: rgba(49, 48, 55, 0.1);
+    }
+  
+    .HeaderInputSearchDark {
+      display: none;
+    }
+    .HeaderInputSearchDark:focus {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  
+    .HeaderUser {
+      display: none;
+    }
+    .HeaderUserIcon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(133.87deg, #4d0ac7 -10.18%, #912ef2 108.59%);
+      border-radius: 4px;
+      align-items: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+  
+    .HeaderUserNameLight {
+      display: none;
+    }
+  
+    .HeaderUserNameDark {
+      display: none;
+    }
+  }
